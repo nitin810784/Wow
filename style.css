@@ -1,0 +1,724 @@
+body {
+
+    /* border: 2px solid rgb(255, 0, 217); */
+    user-select:none;
+}
+
+/* This section is for logo  */
+.logo {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logo img {
+    /* border: 2px solid rgb(123, 0, 255); */
+
+    width: 101px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.btns {
+    /* border: 2px solid rgb(0, 255, 34); */
+    display: flex;
+    justify-content: center;
+    width: 1120px;
+
+
+
+    /* display: flex; */
+
+    /* margin-left: 150px; */
+}
+
+#search {
+    border-radius: 5px;
+    width: 650px;
+    height: 30px;
+}
+
+.v img {
+    /* position: relative; */
+    /* border: 2px solid rgb(255, 132, 0); */
+    margin-left: 10px;
+    width: 26px;
+    height: 26px;
+}
+
+/* This section is navbar */
+
+.nav {
+    /* border: 2px solid rgb(102, 255, 0); */
+    height: 35px;
+    padding: 12px 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar {
+    /* border: 2px solid; */
+    margin: 8px;
+    /* padding: 0px 11px; */
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+
+
+}
+
+/* This is for center img  */
+
+.center img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100%; */
+    width: 100%;
+    cursor: pointer;
+}
+
+/* This is for products */
+
+.product {
+    background-color: rgb(249, 246, 230);
+    height: 615px;
+}
+
+.heading h2 {
+    /* border: 2px solid rgb(102, 255, 0); */
+    display: inline-block;
+    text-indent: 95px;
+    color: rgb(111, 70, 50);
+    font-family: 'Playpen Sans', cursive;
+}
+
+
+.pro {
+    display: flex;
+    position: relative;
+    /* justify-content: space-between; */
+
+    /* text-align: center; */
+    /* align-items: center; */
+    /* border: 2px solid rgb(102, 255, 0); */
+    /* width: 100%; */
+    /* Adjust the width as needed */
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    /* white-space: nowrap; */
+    /* Prevent logos from wrapping to the next line */
+    scrollbar-width: none;
+    /* Hide the scrollbar in Firefox */
+    -ms-overflow-style: none;
+    /* Hide the scrollbar in Internet Explorer and Edge */
+    margin: 0 60px;
+}
+
+.pro::-webkit-scrollbar {
+    display: none;
+    /* Hide the scrollbar in WebKit-based browsers (Chrome, Safari, etc.) */
+}
+
+.pro-img {
+
+
+    /* border: 2px solid rgb(0, 17, 255); */
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    /* position: relative; */
+    /* left: 69px; */
+    /* right: 2150px; */
+    /* right: 60px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    /* margin: auto; */
+    text-align: center;
+    /* margin-left: 25px; */
+    margin: 25px;
+    padding: 8px;
+    /* width: 100%;
+    overflow: auto;
+    white-space: nowrap; */
+
+
+
+
+
+
+}
+
+
+.pro img {
+    width: 240px;
+    height: 240px;
+}
+
+.pro img:hover {
+    cursor: pointer;
+}
+
+.pro-name {
+    /* border: 2px solid rgb(255, 89, 0); */
+    font-size: 15px;
+    font-weight: 200;
+    word-wrap: break-word;
+
+
+
+
+
+
+}
+
+.pro-nam {
+    /* border: 2px solid lawngreen; */
+
+    display: inline-block;
+    /* word-wrap: break-word; */
+    justify-content: center;
+    align-items: center;
+
+
+    margin: 0 0 8px 0;
+
+
+}
+
+.pro-nam:hover {
+    cursor: pointer;
+}
+
+
+.pro-about {
+    /* border: 2px solid rgb(255, 0, 187); */
+    color: rgb(5, 117, 72);
+    /* margin-top: -9px; */
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    /* line-height: 12px; */
+    /* display: inline; */
+
+}
+
+.star img {
+    width: 15px;
+    height: 14px;
+
+}
+
+.price {
+    margin: 8px 0 0 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+p button {
+    /* border: 2px solid rgb(255, 0, 187); */
+    background-color: rgb(242, 125, 31);
+    color: white;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+
+    width: 300px;
+    width: 237px;
+    height: 48px;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+}
+
+p button:hover {
+    opacity: 0.7;
+}
+
+/* This is for Shop by concerns */
+
+.shop-by {
+    background-color: rgb(233, 219, 196);
+    height: 330px;
+}
+
+.heading-2 {
+    /* border: 2px solid rgb(255, 0, 187); */
+    color: rgb(166, 93, 50);
+
+    display: inline-block;
+    text-indent: 95px;
+    font-family: 'Playpen Sans', cursive;
+
+}
+
+.all-shop {
+    /* border: 2px solid rgb(89, 0, 255); */
+
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width: 100%; */
+    /* Adjust the width as needed */
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    /* white-space: nowrap; */
+    /* Prevent logos from wrapping to the next line */
+    scrollbar-width: none;
+    /* Hide the scrollbar in Firefox */
+    -ms-overflow-style: none;
+    /* Hide the scrollbar in Internet Explorer and Edge */
+    margin: 0 60px;
+}
+
+.all-shop::-webkit-scrollbar {
+    display: none;
+    /* Hide the scrollbar in WebKit-based browsers (Chrome, Safari, etc.) */
+}
+
+.shop {
+    /* border: 2px solid rgb(255, 132, 0); */
+
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+/* .shop img{ */
+/* border: 2px solid rgb(0, 255, 55); */
+/* width: 96px; */
+/* height: 96px; */
+
+
+/* } */
+.name {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: rgb(147, 82, 50);
+}
+
+/* This is for NEW Launch */
+
+.new-launch {
+    background-color: rgb(249, 246, 230);
+    height: 615px;
+}
+
+.heading-3 {
+    /* border: 2px solid rgb(102, 255, 0); */
+    display: inline-block;
+    text-indent: 95px;
+    color: rgb(111, 70, 50);
+    font-family: 'Playpen Sans', cursive;
+}
+
+.all-new {
+    display: flex;
+    position: relative;
+    /* justify-content: space-between; */
+
+    /* text-align: center; */
+    /* align-items: center; */
+    /* border: 2px solid rgb(102, 255, 0); */
+    /* width: 100%; */
+    /* Adjust the width as needed */
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    /* white-space: nowrap; */
+    /* Prevent logos from wrapping to the next line */
+    scrollbar-width: none;
+    /* Hide the scrollbar in Firefox */
+    -ms-overflow-style: none;
+    /* Hide the scrollbar in Internet Explorer and Edge */
+    margin: 0 60px;
+}
+
+.all-new::-webkit-scrollbar {
+    display: none;
+    /* Hide the scrollbar in WebKit-based browsers (Chrome, Safari, etc.) */
+}
+
+.all-new img {
+    width: 240px;
+    height: 240px;
+    cursor: pointer;
+}
+
+.star img {
+    width: 15px;
+    height: 14px;
+
+}
+
+/* This is for Shop by categ */
+
+.shop-categ {
+    height: 780px;
+}
+
+.heading-4 h2 {
+    color: rgb(130, 70, 50);
+    display: inline-block;
+    text-indent: 95px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.image1 {
+    grid-area: combos;
+}
+
+.image2 {
+    grid-area: skin;
+}
+
+.image3 {
+    grid-area: hair;
+}
+
+.image4 {
+    grid-area: bath;
+}
+
+.image5 {
+    grid-area: fragrance;
+}
+
+
+.all-imgs {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-areas:
+        'combos skin hair'
+        'combos bath fragrance';
+    gap: 19px;
+    margin: 0 60px;
+
+
+}
+
+.all-imgs img {
+    border-radius: 8px;
+}
+
+.image1 img {
+    cursor: pointer;
+    width: 100%;
+    height: 682px;
+}
+
+.images img {
+    cursor: pointer;
+    width: 100%;
+    height: 326px;
+    /* border: 2px solid; */
+}
+
+/* THIS IS FOR SHOP BY INGREDIENTS */
+
+.shop-ingre {
+
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+}
+
+.heading-5 h2 {
+    color: rgb(111, 70, 50);
+    display: inline-block;
+    text-indent: 95px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.all-ingre {
+
+    display: flex;
+    position: relative;
+    /* justify-content: space-between; */
+
+    /* text-align: center; */
+    /* align-items: center; */
+    /* border: 2px solid rgb(102, 255, 0); */
+    /* width: 100%; */
+    /* Adjust the width as needed */
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    /* white-space: nowrap; */
+    /* Prevent logos from wrapping to the next line */
+    scrollbar-width: none;
+    /* Hide the scrollbar in Firefox */
+    -ms-overflow-style: none;
+    /* Hide the scrollbar in Internet Explorer and Edge */
+    margin: 0 60px;
+    /* border: 2px solid rgb(228, 14, 14) ; */
+
+
+
+}
+
+.all-ingre::-webkit-scrollbar {
+    display: none;
+    /* Hide the scrollbar in WebKit-based browsers (Chrome, Safari, etc.) */
+}
+
+.ingre-img img {
+    /* margin: 10px; */
+    height: 167px;
+    /* border: 2px solid rgb(228, 14, 14) ; */
+    /* box-shadow: 100px black; */
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    /* border-radius: 10px; */
+}
+
+.ingre-img {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 15px;
+    transition-duration: 0.5s;
+}
+
+.ingre-img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    /* margin: 1rlh; */
+}
+
+/* THIS IS FOR CUSTOMER TESTIMONIALS */
+
+.customer-rev {
+    background-color: rgb(233, 219, 196);
+    height: 465px;
+
+}
+
+.heading-6 h2 {
+    color: rgb(111, 70, 50);
+    display: inline-block;
+    text-indent: 95px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.all-rev {
+    display: flex;
+    margin: 0 60px;
+
+
+}
+
+.customer-img {
+    background-color: rgb(249, 246, 230);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid red; */
+    /* background-color: pink; */
+    /* width: 400px; */
+    margin: 0 22px 0 0;
+    width: 437px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
+
+.rev-img img {
+
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    width: 100px;
+    margin: 0 0 16px;
+
+}
+
+.star-img img {
+    width: 20px;
+    /* border: 2px solid blue; */
+    margin: 0 0 16px;
+}
+
+.par {
+    /* border: 2px solid blue; */
+    font-size: 20px;
+    margin: 0 0 16px;
+    padding: 0 6px;
+}
+
+.customer-name {
+    position: relative;
+    bottom: 5px;
+    font-size: 25px;
+    /* border: 2px solid; */
+}
+
+.hitesh {
+    margin: 0 0 38px;
+}
+
+/* THIS IS FOR Footer */
+
+footer {
+    /* border: 2px solid rgb(26, 128, 0); */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0 73px;
+    height: 548px;
+    background-color: fafafa;
+
+}
+
+.notice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid; */
+
+
+}
+
+.notice h2 {
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Playpen Sans', cursive;
+    /* border: 2px solid red; */
+    margin: 25px;
+}
+
+.notice p {
+    /* border: 2px solid rgb(0, 255, 166); */
+    margin: 11px 0px 18px;
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.all-footer {
+    display: flex;
+    /* border: 2px solid red; */
+    height: 500px;
+
+}
+
+.wow-logo {
+    display: flex;
+    /* justify-content:first baseline; */
+    /* align-items: center; */
+
+    /* border: 2px solid red; */
+    width: 710px;
+    height: 315px;
+    padding: 97px 0 0 0 ;
+}
+
+.wow-logo img {
+
+    margin-left: 95px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+justify-self: end;
+    width: 101px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.wow-about p {
+    /* border: 2px solid blue; */
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 0 40px 0 90px;
+    height: 130px;
+    font-size: 18px;
+    width: 400px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: justify; */
+    /* border: 2px solid rgb(255, 0, 242); */
+    width: 180px;
+    margin: 0 30px 0 15px;
+    padding-top: 97px;
+    
+}
+
+.footbar {
+    /* display: flex; */
+/* width: 108px; */
+/* justify-content: center; */
+
+    /* border: 2px solid rgb(0, 255, 115); */
+    margin: 5px;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.wow-us {
+    /* border: 2px solid pink; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    width: 225px;
+    padding-top: 97px;
+    /* margin-left: 100px; */
+
+}
+
+.all-us {
+    /* border: 2px solid red; */
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+
+}
+
+/* THIS Is FOR RES. */
+
+/* @media (min-width:0px) and (max-width:1376px) {
+
+.btns{
+    width: 1100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+} */
+
